@@ -25,3 +25,4 @@ Color scheme: Jungly but subdued? or maybe some red for livliness
 
 Colors:
 
+Font: Amaranth
