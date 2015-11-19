@@ -17,8 +17,11 @@ Structure
 		-Dolphin vs Icthyosaur
 		-Birds vs Pterosaurs vs bats
 		-Orthomimus and ostriches/emus?
-		-Hummingbird, dragonfly, hummingbird hawk-moth
+		-Hummingbird, dragonfly, hummingbird hawk-moth (?)
 			
 			
 
 Color scheme: Jungly but subdued? or maybe some red for livliness
+
+Colors:
+
