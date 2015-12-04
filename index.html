@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	
 	<link rel="stylesheet" href="css/css_index.css" type="text/css">
 
@@ -16,29 +17,38 @@
 
 <body>
 
-	<div class="index_top">
-	<h3>Prehistoric Express</h3>
-	<nav role="navigation">
+
+<!-- container's keep the content within from stretching to the edge of the screen -->
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-4 head_top">Prehistoric Express</div>
+		<div class="index_top col-md-8"> 
 		<ul>
 			<li><a>Home</a></li>
 			<li><a>About</a></li>
 			<li><a>Contact</a></li>
 		</ul>
-	</nav>
+		</div>
 	</div>
-
-	<h1>Welcome! Choose a slice of Evolution!</h1>
-
-	<div id="evolution_pie">
-	</div>
-
-	<p>How do you like your proof of environmental pressures on a genome?
-	Our Four Slices serve up species that are not closely related each other but fill similar
-	ecological roles. These animals started from different branches but their ancestorial genes
-	figured out the same sort of tricks, whether it is fins or wings! Remember, the eye has
-	evolved independently <i>50 to 100 times!</i>
-	</p>
-	<p>What will you choose? Swimmers, runners, flyers or hoverers?</p>
-
-
+	
+	
+		<div class="row">
+		<h1 class="col-md-12">Welcome! Choose a slice of Evolution!</h1>
+		<div>
+			
+		<div class="col-md-12" id="evolution_pie">
+		</div>
+		
+		<br>
+		<div class="col-md-12">
+		<p>How do you like your proof of environmental pressures on a genome?
+		Our Four Slices serve up species that are not closely related each other but fill similar
+		ecological roles. These animals started from different branches but their ancestorial genes
+		figured out the same sort of tricks, whether it is fins or wings! Remember, the eye has
+		evolved independently <i>50 to 100 times!</i>
+		</p>
+		<p><b>What will you choose? Swimmers, runners, flyers or hoverers?</b></p>
+		</div>
+</div>
 </body>
