@@ -1,0 +1,154 @@
+//Only smallest to xs
+@media only screen and (max-width:767px) and (min-width:0px)
+{
+    
+    
+    
+{
+
+//small and up
+@media only screen and(min-width:768px)
+{
+    
+}
+
+
+//medium and up
+@media only screen and (min-width: 992px)
+{
+    
+    
+}
+
+
+//large and up
+@media only screen and(min-width:1200px)
+{
+    
+}
+
+
+//.index_top
+//{
+//    border:none;
+//    margin: 0px 0px 0px 0px;
+//    width:auto;
+//    font-weight:bold;
+//
+//	ul
+//	{
+//		list-style: none;
+//		margin:0px;
+//		padding: 0px;
+//		//background: #04FE54;
+//        border: 1px black solid;
+//		display:inline-block;
+//		height:25px;
+//		//border-radius:3px;
+//        box-shadow: 2px 2px 2px #888888;
+//        border: 1px;
+//        width: 200px;
+//	}
+//
+//	li
+//	{
+//		float:left;
+//		padding: 0px 5px 0px 15px;
+//	}
+//}
+
+.title_header
+{
+    font-size: 100px;
+    color: #80BA5D;
+
+}
+
+
+.nav_container
+{
+    background-color: #FFF9AA !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    //height: 100% !important;
+    .container
+    {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding
+    }
+    
+    nav
+    {
+        vertical-align: middle;
+        background-color: #FFF9AA !important;
+        border-color: #FFF9AA !important;
+    
+        a
+        {
+            font-size: 30px;
+            font-weight: 800;
+            color:grey !important;
+        }
+    }
+
+}
+
+.evolution_pie
+{
+    div:first-child
+    {
+        
+            //border: 1px solid red;
+            width:50%;
+            height: 100px;
+
+    }
+    
+    img
+    {
+        margin-top: 20px;
+        width:100px;
+        //max-height:100%;
+    }
+    
+    
+    div:nth-child(2)
+    {
+            //border: 1px solid blue;
+            width:50%;
+            height: 100px;
+    }
+    
+    div:nth-child(3)
+    {
+            //border: 1px solid yellow;
+            
+            height: 100px;
+    }
+    
+}
+
+
+
+.head_top
+{
+    float:left;
+    font-family: Amaranth;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+h1
+{
+    font-family: Amaranth;
+}
+
+
+
+*
+{
+    font-family: Amaranth;
+}

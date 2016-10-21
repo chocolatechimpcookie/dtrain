@@ -7,42 +7,40 @@
 		<script src="./js/bootstrap.min.js"></script>
 		<link href="./css/bootstrap.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<script src='./js/dtrain.js'></script>
 	</head>
 <body ng-app="dinosaurTrain">
 
 	<div class="container">
-	<div class="row">
-		<div class="col-md-4 head_top">Prehistoric Express</div>
-		<div class="index_top col-md-8"> 
-		<ul>
-			<li><a href="#/">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-		</div>
+	<h1 class="title_header"> Dinosaur Train</h1>
+	</div>
+	
+	<div class="nav_container">
+	<div class="container">
+	
+		<nav class="navbar navbar-inverse">
+	<!--		<div class="navbar-header">
+			</div>-->
+			<ul class="nav navbar-nav">
+				<li><a href="#/">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
 	</div>
 	</div>
+	
+	
+	<div class="container">
+	<div ng-view></div>
+	</div>
 
-<div ng-view>
 
-
-</div>
-
-<script>
-var app = angular.module("dinosaurTrain", ["ngRoute"]);
-app.config(function($routeProvider) {
-    $routeProvider
-    .when("/", {
-        templateUrl : "./html/home.html"
-    })
-    .when("/about", {
-        templateUrl : "./html/about.html"
-    })
-    .when("/contact", {
-        template : "./html/contact.html"
-    });
-});
-</script>
-
+	
 </body>
+
+
+
+
 </html>

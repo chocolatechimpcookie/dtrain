@@ -1,0 +1,50 @@
+/*
+Error: Invalid CSS after "{": expected "}", was "{"
+        on line 7 of main.scss
+
+2: @media only screen and (max-width:767px) and (min-width:0px)
+3: {
+4:     
+5:     
+6:     
+7: {
+8: 
+9: //small and up
+10: @media only screen and(min-width:768px)
+11: {
+12:     
+
+Backtrace:
+main.scss:7
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:657:in `block'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:409:in `media_directive'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:223:in `special_directive'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:198:in `directive'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `call'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/home/cina/.rvm/gems/ruby-2.2.1/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"{\": expected \"}\", was \"{\"\A         on line 7 of main.scss\A \A 2: @media only screen and (max-width:767px) and (min-width:0px)\A 3: {\A 4:     \A 5:     \A 6:     \A 7: {\A 8: \A 9: //small and up\A 10: @media only screen and(min-width:768px)\A 11: {\A 12:     "; }
