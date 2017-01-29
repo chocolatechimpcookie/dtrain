@@ -1,49 +1,64 @@
--The "time line" can be a bootstrap carousel
+Time Line interactivity
+	-Start all the way on the left. If user hovers over image, it enlarges, when
+	they leave the image, it shrinks
+	
+	-^Can I do interactivity like this with angular or do I have to use jquery?
 
+	-When user hovers right, more of the timeline appears.
+	
+	-Something like this:
+		https://css-tricks.com/how-to-create-a-horizontally-scrolling-site/
+		
+		But when the mouse hits the right edge of the screen, more of the 
+		content is revealed
 
-Swimmers
-
-runners nah
-
-flyers: Bats, Birds, Pterosaurs
-
-hoverers
-
-
-
-Bird Icon:http://www.flaticon.com/free-icon/swift-bird-shape_47080
-Credit there.
-
-Dolphin: http://www.flaticon.com/free-icon/dolphin_92438
-
-Bee: http://www.flaticon.com/free-icon/bee-insect-outline_26117
+		Won't this conflict with single page setup? the layout of the page totally changes.
 
 
 
-So pie can be centered between these three.
+Pie
 
-Have a picture of any 4 of these animals.
-OR an icon representing that action.
+	Swimmers
 
-Want something more authentic looking...
-Cutesy even...
+	runners nah
 
-But flat and simple would look ok too
+	flyers: Bats, Birds, Pterosaurs
+
+	hoverers
+
+	Bird Icon:http://www.flaticon.com/free-icon/swift-bird-shape_47080
+	Credit there.
+
+	Dolphin: http://www.flaticon.com/free-icon/dolphin_92438
+
+	Bee: http://www.flaticon.com/free-icon/bee-insect-outline_26117
+
+
+
+	So pie can be centered between these three.
+
+	Have a picture of any 4 of these animals.
+	OR an icon representing that action.
+
+	Want something more authentic looking...
+	Cutesy even...
+
+	But flat and simple would look ok too
 
 
 
 
 Color Scheme:
 
-http://paletton.com/#uid=52b0u0kllllaFw0g0qFqFg0w0aF
+	http://paletton.com/#uid=52b0u0kllllaFw0g0qFqFg0w0aF
 
-http://paletton.com/#uid=73X0u0kKqrxrYEWHqBzNzmiRsg-
-Color 1 Green: 80BA5D
+	http://paletton.com/#uid=73X0u0kKqrxrYEWHqBzNzmiRsg-
+	Color 1 Green: 80BA5D
 
-Color 2: Yellow: FFF9AA
+	Color 2: Yellow: FFF9AA
 
 
 
 Using this menu for the PI:
 
-https://sarasoueidan.com/tools/circulus/#icons
+	https://sarasoueidan.com/tools/circulus/#icons
